@@ -27,7 +27,7 @@
 ##### Re-using components
 4. Membuat file Todos.js dalam src > components agar code yang dibuat reusable, dalam case ini saya akan memindahkan beberapa code dalam App.js ke Todos.js dan mengimport Todos.js ke dalam App.js, hal ini dilakukan agar code dalam Todos.js dapat reusable.
     Sehingga code dalam Todos.js dan App.js sebagai berikut :
-    - Code in Todos.js
+- Code in Todos.js
 ```js
 import React from 'react'
 export default function Todos() {
@@ -43,7 +43,7 @@ export default function Todos() {
   );
 }
 ```
-    - Code in App.js
+- Code in App.js
 ```js
 import Todos from "./components/Todos";
 function App() {
