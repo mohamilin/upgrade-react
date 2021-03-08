@@ -8,7 +8,7 @@
     2. Perubahan kode css dalam index.css : line 20 - 92
     3. Perubahan kode App.js
 
-        ```jsx
+    ```javascript
         function App() {
             return (
                 <div>
@@ -23,6 +23,4 @@
             );
         }
         export default App;
-        ```
-
-    
+    ```
