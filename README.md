@@ -5,9 +5,9 @@
 
 ### Log Documentasi
 ##### 
-    1. Hapus file App.test.js, App.css, dan logo
-    2. Perubahan kode css dalam index.css : line 20 - 92
-    3. Perubahan kode App.js
+1. Hapus file App.test.js, App.css, dan logo
+2. Perubahan kode css dalam index.css : line 20 - 92
+3. Perubahan kode App.js
 ```js
     function App() {
         return (
