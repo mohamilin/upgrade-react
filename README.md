@@ -8,33 +8,19 @@
     2. Perubahan kode css dalam index.css : line 20 - 92
     3. Perubahan kode App.js
 
-    ```javascript
-        function App() {
-            return (
+```js
+    function App() {
+        return (
+            <div>
+            <h1>My Todos</h1>
+            <div className="card">
+                <h2>Title</h2>
                 <div>
-                <h1>My Todos</h1>
-                <div className="card">
-                    <h2>Title</h2>
-                    <div>
-                    <button>Delete</button>
-                    </div>
+                <button>Delete</button>
                 </div>
-                </div>
-            );
-        }
-        export default App;
-    ```
-```javascript
-const sum = require('./sum');
-
-test('adds 1 + 2 to equal 3', () => {
-  expect(sum(1, 2)).toBe(3);
-});
+            </div>
+            </div>
+        );
+    }
+    export default App;
 ```
-    ```javascript
-        const sum = require('./sum');
-
-        test('adds 1 + 2 to equal 3', () => {
-        expect(sum(1, 2)).toBe(3);
-        });
-    ```
