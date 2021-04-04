@@ -56,3 +56,36 @@ function App() {
 export default App;
 ```     
 ##### Passing Data with props and dynamic
+5. Menggunakan props agar data lebih dinamis, dalam file App.js kita perlu menambahkan atribute <strong> text </strong> dalam component <Todos/> dengan value sebagaimana yang kita inginkan. contohnya : <Todos text="Learn React"/>, kemudian kita berikan paramater obj berupa props dalam src > components > Todos.js
+Sehingga :
+  - App.js
+  ```js
+  return (
+      <div>
+      <h1>My Todos</h1>
+      <Todos text="Learn React" />
+      <Todos text="Learn NodeJs" />
+      <Todos text="TodosAPP" />
+
+    </div>
+  );
+  ```
+  - Todos.js
+  ```js
+  export default function Todos(props) {
+  // console.log untuk mengecek apakah value dalam props sudh ada atau belum
+  console.log('pros', props)
+  return (
+    <>
+      <div className="card">
+        <h2>{props.text}</h2>
+        <div className="actions">
+        <button className="btn">Edit</button>
+          <button className="btn">Delete</button>
+        </div>
+      </div>
+    </>
+  );
+}
+```
+

@@ -3,7 +3,10 @@ function App() {
   return (
     <div>
       <h1>My Todos</h1>
-      <Todos/>
+      <Todos text="Learn React" />
+      <Todos text="Learn NodeJs" />
+      <Todos text="TodosAPP" />
+
     </div>
   );
 }
