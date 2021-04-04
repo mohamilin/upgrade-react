@@ -29,7 +29,6 @@
     Sehingga code dalam Todos.js dan App.js sebagai berikut :
 - Code in Todos.js
 ```js
-import React from 'react'
 export default function Todos() {
   return (
     <>
@@ -56,3 +55,4 @@ function App() {
 }
 export default App;
 ```     
+##### Passing Data with props and dynamic
