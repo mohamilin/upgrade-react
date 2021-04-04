@@ -71,6 +71,7 @@ Sehingga :
   );
   ```
   - Todos.js
+
   ```js
   export default function Todos(props) {
   // console.log untuk mengecek apakah value dalam props sudh ada atau belum
@@ -86,6 +87,29 @@ Sehingga :
       </div>
     </>
   );
-}
-```
+  }
+
+  ```
+##### Handling events
+6. Dalam Todos.js terdapat button edit dan delete, kini saatnya kita akan menjadikan button tersebut berfungsi biasa disebut dengan <strong>handling events </strong>. Kita akan menggunakan fungsi onClick agar ketika kita klik buttonnya berfungsi. Kita berikan value dalam onClick berupa <strong>dynamic expression </strong> yang berupa <strong> arrow function " () => {} " </strong> atau dengan membuat function diluar return
+  - Todos.js
+  ```js
+  export default function Todos(props) {
+    ...
+  function deleteHandler(){
+    // untuk mengecek apakah btn delete sudah sesuai dngan value props nya.
+    console.log('klik deletes', props.text)
+  }
+    return (
+      <>
+        <div className="card">
+          .....
+            <button className="btn" onClick={deleteHandler} >Delete</button>
+          </div>
+        </div>
+      </>
+    );
+  }
+  ```
+
 
