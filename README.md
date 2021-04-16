@@ -236,3 +236,6 @@ const [modalOpen, setModalOpen] = useState(
       )
   }
   ```
+
+## Next
+  Selanjutnya, pembahasan akan dilanjutkan dalam folder meetup-app
